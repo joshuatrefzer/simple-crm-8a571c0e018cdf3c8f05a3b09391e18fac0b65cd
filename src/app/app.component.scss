@@ -1,0 +1,57 @@
+.mat-drawer-container {
+    height: 100vh;
+}
+
+.menu-icon {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 100%;
+    &:hover {
+        background-color: #36459a; 
+    }
+   
+    &:active {
+        opacity: 0.7;
+    }
+}
+
+.sidenav {
+    width: 300px;
+}
+
+.logo-container {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.366);
+    height: 56px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-toolbar, mat-toolbar-row {
+    height: 56px;
+}
+
+.sidenav-links {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    font-size: 20px;
+    padding-left: 50px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    &:hover {
+        background-color: rgba(128, 128, 128, 0.499);
+    }
+}
+
+.router-container {
+    padding-left: 56px;
+    padding-top: 16px;
+}

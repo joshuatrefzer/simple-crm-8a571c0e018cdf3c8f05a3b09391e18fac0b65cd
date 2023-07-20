@@ -1,0 +1,31 @@
+<mat-drawer-container class="mat-drawer-container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side" [opened]="true">
+    <div class="logo-container">
+      PLATZ FÜR LOGO
+    </div>
+    <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+    <div class="sidenav-links">
+      <div routerLink="/dashboard" class="link"><mat-icon>dashboard</mat-icon> Dashboard</div>
+      <div routerLink="/user" class="link"> <mat-icon>account_circle</mat-icon> User</div>
+    </div>
+
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+
+    <mat-toolbar color="primary">
+
+
+      <mat-icon class="menu-icon" mat-button (click)="drawer.toggle()">menu</mat-icon>
+
+
+      <span>Simple CRM</span>
+    </mat-toolbar>
+
+    <div class="router-container">
+      <router-outlet></router-outlet>
+    </div>
+    
+  </div>
+
+</mat-drawer-container>
