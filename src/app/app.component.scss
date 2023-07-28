@@ -25,8 +25,12 @@
     width: 100%;
     
     display: flex;
-    justify-content: center;
     align-items: center;
+
+    img {
+        height: 50px;
+        padding-left: 50px;
+    }
 }
 
 mat-toolbar, mat-toolbar-row {
@@ -53,5 +57,6 @@ mat-toolbar, mat-toolbar-row {
 
 .router-container {
     padding-left: 56px;
+    padding-right: 56px;
     padding-top: 16px;
 }

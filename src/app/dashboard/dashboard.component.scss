@@ -1,0 +1,18 @@
+.user-table {
+    width: 100%;
+    tr {
+        border-collapse: collapse;
+        &:hover {
+            background-color: rgba(128, 128, 128, 0.171);
+        }
+    }
+
+    td {
+        border-bottom: 1px solid grey;
+    }
+
+    th {
+        color: grey;
+        text-align: start;
+    }
+}

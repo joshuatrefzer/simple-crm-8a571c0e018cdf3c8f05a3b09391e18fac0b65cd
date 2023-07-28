@@ -1,0 +1,30 @@
+.user-detail-header {
+    min-height: 300px;
+    background: linear-gradient(rgb(39, 115, 102), rgb(131, 131, 226));
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+
+    img {
+        object-fit: cover;
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.name-and-mail {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
